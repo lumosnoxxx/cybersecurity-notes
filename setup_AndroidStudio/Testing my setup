@@ -1,8 +1,12 @@
-emulator -avd "Image_1_-_Pixel_6" -no-snapshot-load -no-boot-anim
+emulator -avd "Image_1_-_Pixel_6" -no-snapshot-load -no-boot-anim (emulator -avd Pixel_XL -writable-system -no-snapshot)
 adb devices
 adb root
+adb remount
 adb shell id
 
 adb install dvba.apk 
-adb shell settings put global http_proxy 192.168.88.249:8080
+
+#Checks if proxy set first 
 adb shell settings get global http_proxy 
+adb shell settings put global http_proxy 192.168.88.249:8080
+
