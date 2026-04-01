@@ -7,3 +7,6 @@ but for us Cybersecurity workers, it's one of the most valuable tools to audit a
 So, to get it : 
 ## Step 1 : Download Android Studio (always from official sources please) 
 Get the official downloader on official android site [here](https://developer.android.com/studio)  
+Get command line tools only at the end of the page, extract then put here : 
+~/Android/Sdk/cmdline-tools/latest/bin/sdkmanager
+~/Android/Sdk/cmdline-tools/latest/bin/avdmanager
