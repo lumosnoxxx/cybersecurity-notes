@@ -1,0 +1,6 @@
+emulator -avd "Image_1_-_Pixel_6" -no-snapshot-load -no-boot-anim
+adb devices
+adb root
+adb shell id
+
+adb install dvba.apk 
