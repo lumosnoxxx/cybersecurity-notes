@@ -1,4 +1,5 @@
-emulator -avd "Image_1_-_Pixel_6" -no-snapshot-load -no-boot-anim (emulator -avd Pixel_XL -writable-system -no-snapshot)
+emulator -avd "Image_1_-_Pixel_6" -writable-system -no-snapshot-load -no-boot-anim 
+(emulator -avd Pixel_XL -writable-system -no-snapshot)
 adb devices
 adb root
 adb remount
